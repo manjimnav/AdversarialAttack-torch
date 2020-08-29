@@ -1,0 +1,10 @@
+name: advatt-env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7
+  - torchvision>=0.7
+  - matplotlib
+  - pytorch>=1.6.0
+  - cudatoolkit=10.2
